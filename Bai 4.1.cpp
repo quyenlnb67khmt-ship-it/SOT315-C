@@ -17,7 +17,7 @@ void inMang(float a[], int n){
 	printf ("Day so: ");
 	
 	for(int i = 0; i < n; i++){
-		printf("%f", &a[i]);
+		printf("%f", a[i]);
 	}
 	printf("\n");
 }
